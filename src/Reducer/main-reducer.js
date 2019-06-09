@@ -1,6 +1,11 @@
-import {combineReducers} from 'redux';
 
 
-export default combineReducers({
 
-});
+export default ( state=[], {type, payload}) => {
+
+   switch(type) {
+     case 'FORM_SUBMIT':
+       return
+   }
+
+}
